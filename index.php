@@ -6,6 +6,8 @@
     <title>My IOT</title>
 </head>
 <body>
+<?php
     phpinfo();
+?>
 </body>
 </html>
