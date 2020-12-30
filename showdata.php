@@ -1,5 +1,5 @@
 <?php
-    $conn = new mysqli("10.103.2.30", "root", "FYYggx71351", "pm_data");
+    $conn = new mysqli("10.100.2.36","root","BMRzvx67454","pm_data");
     $stmt = "SELECT *  FROM pmdata ORDER BY id DESC";
     $result = $conn->query($stmt);
 
