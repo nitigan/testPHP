@@ -237,7 +237,7 @@ bool read_all()
   Payload = str2HexStr(Payload);
 
 
-  Send_command("AT+CHTTPCREATE=\"https://node8049-testdust.app.ruk-com.cloud/\"");
+  Send_command("AT+CHTTPCREATE=\"https://node8049-testdust.app.ruk-com.cloud\"");
   Serial.println("Command Status : " + String(cmm_state));
   Send_command("AT+CHTTPCON=0");
   Serial.println("Command Status : " + String(cmm_state));
